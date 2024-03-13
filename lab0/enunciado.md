@@ -17,19 +17,19 @@ hget es un cliente HTTP, desarrollado en Python 3, que obtiene una página desde
 
 Descargar/clonar el kickstarter desde el repositorio en [Git](https://git.cs.famaf.unc.edu.ar/redes/lab-kickstarters/lab0-kickstarter)
 ```
-$git clone https://git.cs.famaf.unc.edu.ar/redes/lab-kickstarters/lab0-kickstarter.git
+$ git clone https://git.cs.famaf.unc.edu.ar/redes/lab-kickstarters/lab0-kickstarter.git
 ```
 Deberán completar el cliente para que funcione. El código de hget está esencialmente ya escrito y se lo damos con solamente una de las funciones incompletas: ```connect_to_server()```.
 
 ```
-    $ls
+    $ ls
     hget.py
-    $python3 hget.py http://www.trashloop.com/
+    $ python3 hget.py http://www.trashloop.com/
     Contactando servidor 'www.trashloop.com'...
     Contactando al servidor en 138.68.199.111...
     Enviando pedido...
     Esperando respuesta...
-    $ls
+    $ ls
     download.html  hget.py
 ```
 Luego de solicitar una página por su URL, obtenemos un archivo llamado download.html. Puede elegirse un nombre de archivo distinto con la opción -o:
