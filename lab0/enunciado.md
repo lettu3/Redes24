@@ -19,7 +19,7 @@ Descargar/clonar el kickstarter desde el repositorio en [Git](https://git.cs.fam
 ```
 $git clone https://git.cs.famaf.unc.edu.ar/redes/lab-kickstarters/lab0-kickstarter.git
 ```
-Deberán completar el cliente para que funcione. El código de hget está esencialmente ya escrito y se lo damos con solamente una de las funciones incompletas: connect_to_server().
+Deberán completar el cliente para que funcione. El código de hget está esencialmente ya escrito y se lo damos con solamente una de las funciones incompletas: ```connect_to_server()```.
 
 ```
     $ls
