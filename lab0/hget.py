@@ -89,16 +89,22 @@ def connect_to_server(server_name):
 
     # Buscar direccion ip
     # COMPLETAR ABAJO DE ESTA LINEA
-    ip_address = socket.gethostbyname(server_name) 
+
+    #Se obtiene la direccion ip del host
+    ip_address = socket.gethostbyname(server_name)
+    
     # Aqui deberian obtener la direccion ip del servidor y asignarla
     # a ip_address
     # DEJAR LA LINEA SIGUIENTE TAL COMO ESTA
     sys.stderr.write("Contactando al servidor en %s...\n" % ip_address)
     # Crear socket
     # COMPLETAR ABAJO DE ESTA LINEA
-    my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #se crea el socket
-
-    my_socket.connect((ip_address, HTTP_PORT)) #se conecta el socket
+    
+    # Se crea el socket, protocolo IPv4, transporte de datos TCP (Stream)
+    my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    # Se conecta el socket al host, en el puerto 80 (HTTP)
+    my_socket.connect((ip_address, HTTP_PORT))
 
     return my_socket
     # Aqui deben conectarse al puerto correcto del servidor
