@@ -1,0 +1,7 @@
+.qtenvrc
+.gqtenvrc
+*.o
+/out
+/.metadata
+Makefile
+.settings/language.settings.xml
