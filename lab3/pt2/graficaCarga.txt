@@ -1,0 +1,30 @@
+
+
+Carga ofrecida vs carga útil (post diseño)
+--- Caso 1 ---
+exp=0.1,  Ofrecida=1979, Util= 661
+exp=0.15, Ofrecida=1307, Util= 555
+exp=0.2,  Ofrecida=989,  Util= 484
+exp=0.3,  Ofrecida=659,  Util= 328
+exp=0.4,  Ofrecida=493,  Util= 246
+exp=0.5,  Ofrecida=390,  Util= 194
+exp=0.6,  Ofrecida=326,  Util= 162
+exp=0.7,  Ofrecida=285,  Util= 142 
+exp=0.8,  Ofrecida=241,  Util= 120
+exp=0.9,  Ofrecida=219,  Util= 109
+exp=1.0,  Ofrecida=200,  Util= 99
+
+--- Caso 2 ---
+
+exp=0.1,  Ofrecida=1979, Util=501 
+exp=0.15, Ofrecida=1307, Util=437
+exp=0.2,  Ofrecida=989,  Util=393
+exp=0.3,  Ofrecida=659,  Util=322
+exp=0.4,  Ofrecida=493,  Util=246
+exp=0.5,  Ofrecida=390,  Util=194
+exp=0.6,  Ofrecida=326,  Util=162 
+exp=0.7,  Ofrecida=285,  Util=142 
+exp=0.8,  Ofrecida=241,  Util=120
+exp=0.9,  Ofrecida=219,  Util=109 
+exp=1.0,  Ofrecida=200,  Util=99
+
