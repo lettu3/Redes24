@@ -1,0 +1,9 @@
+.qtenvrc
+.gqtenvrc
+*.o
+/out
+/.metadata
+Makefile
+.settings/language.settings.xml
+FeedbackPkt_m.cc
+FeedbackPkt_m.h
