@@ -10,4 +10,4 @@ En este repositorio se encuentran los laboratorios realizados durante el cursado
 - Laboratorio 4: Red: Análisis basado en algoritmo de ruta más corta con grafo estático y actualizado dinámicamente (ip). Herramienta: C++ / Omnet++. 
 
 
-Los laboratorios 1-4 son un trabajo conjunto de: Nahuel Fernandez, Ignacio Gomez Barrios, Luciano Rojo
+Los laboratorios 1-4 son un trabajo conjunto de: Nahuel Fernandez, Ignacio Gomez Barrios, Luciano Rojo.
